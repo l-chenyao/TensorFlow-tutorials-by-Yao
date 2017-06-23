@@ -1,9 +1,6 @@
 """
-Know more, visit my Python tutorial page: https://morvanzhou.github.io/tutorials/
-My Youtube Channel: https://www.youtube.com/user/MorvanZhou
-
-Dependencies:
-tensorflow: 1.1.0
+Session is a very important concept.
+Every actually step need session to implement 
 """
 import tensorflow as tf
 
