@@ -22,7 +22,7 @@ with tf.Session() as sess:
         [z1, z2],   #run them together
         feed_dict = {
             x1:2, y1:5,
-            x2:[[2], [2]], y2:[[3,3]]  #x2 is a matrix 2*1,,  y2 is a vector 1*2
+            x2:[[2], [2], [3]], y2:[[3,3,1]]  #x2 is a matrix 2*1,,  y2 is a vector 1*2
         })
     print("z1 value = ", z1_value)
     print("z2 value = ", z2_value)

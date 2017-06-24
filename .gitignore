@@ -10,6 +10,7 @@ __pycache__/
 # eclipse
 *.project
 .pydevproject
+.settings
 
 
 # Distribution / packaging
