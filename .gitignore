@@ -11,6 +11,7 @@ __pycache__/
 *.project
 .pydevproject
 .settings
+*.svg
 
 
 # Distribution / packaging
