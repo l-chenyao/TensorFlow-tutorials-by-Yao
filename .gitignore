@@ -12,6 +12,8 @@ __pycache__/
 .pydevproject
 .settings
 *.svg
+*.gz
+*.png
 
 
 # Distribution / packaging
@@ -107,3 +109,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+src/eg.py
+src/eg_mou.py
