@@ -35,6 +35,8 @@ model.add(Dense(512, activation='relu'))
 model.add(Dropout(0.2))
 model.add(Dense(10,activation='softmax'))
 
+tbCallBack = keras.callbacks.TensorBoard(log_dir=r'C:\Tensorboard_lib\callbacks', histogram_freq=0, write_graph=True, write_images=True)
+
 model.summary()
 config = model.get_config()
 
@@ -46,7 +48,8 @@ history = model.fit(x_train, y_train,
                     batch_size=batch_size, 
                     epochs=epochs, 
                     verbose=2, 
-                    validation_data=(x_test, y_test))
+                    validation_data=(x_test, y_test),
+                    callbacks=[tbCallBack])
 
 score = model.evaluate(x_test, y_test, verbose=1)
 print('Test loss:', score[0])
