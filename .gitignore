@@ -111,3 +111,5 @@ ENV/
 .mypy_cache/
 src/eg.py
 src/eg_mou.py
+.h5
+.npy
