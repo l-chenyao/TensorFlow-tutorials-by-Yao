@@ -8,3 +8,5 @@
 
 ## __Test result__ of mnist_deep 
 ![image](\Test_result\mnist_deep.png)
+## __Test result__ of mnist_deep 
+![image](\Test_result\model.png)
